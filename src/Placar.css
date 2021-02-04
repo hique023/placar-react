@@ -1,0 +1,44 @@
+.Placar {
+  text-align: center;
+}
+
+.Cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  width: 100px;
+  overflow: hidden;
+  background-color: #ffd3d3;
+  outline: none;
+}
+
+.Clean:hover {
+  width: 102px;
+  background-color: #ffd3d3bd;
+}
+
+.Clean:active {
+  background-color: #ccc;
+}
+
+.Operation {
+  background-color: #cfffd3;
+  width: 50px;
+  margin: 1px;
+}
+
+.Operation:hover {
+  background-color: #cfffd3b4;
+  width: 52px;
+  margin: 1px;
+}
+
+.Operation:active {
+  background-color: #ccc;
+}
